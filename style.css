@@ -1,0 +1,35 @@
+a {
+    color: #FF0000;  /* Cor padrão: vermelho */
+    text-decoration: none;  /* Remove o sublinhado padrão */
+  }
+  
+  a:hover {
+    color: #FFFF00;  /* Cor ao passar o mouse: limão */
+    text-decoration: underline;  /* Adiciona sublinhado ao passar o mouse */
+  }
+  
+
+/* Ex 2 */
+
+p {
+    font-family: Arial;
+  }
+  
+  h1 + p {
+    font-weight: bold;
+  }
+  
+/* Ex 3 */
+
+.destaque {
+    font-family: Arial;
+  }
+  
+  .destaque p {
+    font-weight: bold;
+  }
+  
+  .destaque strong {
+    color: red;
+  }
+  
